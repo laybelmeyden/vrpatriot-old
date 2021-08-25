@@ -1,0 +1,99 @@
+* {
+  scroll-behavior: smooth;
+}
+
+#stages .grid_col_stages {
+  grid-row-gap: 60px;
+}
+
+#stages .cell_red {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#stages .cell_red p {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px !important;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: "Montserrat" !important;
+  color: #425c5a !important;
+}
+
+#stages .cell_red div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #d81a12;
+  border-radius: 60px;
+  z-index: -1;
+  margin-right: 70px;
+  top: -25px;
+}
+
+#stages .cell_yellow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#stages .cell_yellow p {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px !important;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: "Montserrat" !important;
+  color: #425c5a !important;
+}
+
+#stages .cell_yellow div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #D6A217 !important;
+  border-radius: 60px;
+  z-index: -1;
+  margin-right: 115px;
+  top: -25px;
+}
+
+#nominations {
+  margin-bottom: 40px;
+}
+
+.news__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: normal;
+  color: #E2575F;
+  margin: 0;
+  padding-top: 110px;
+  padding-bottom: 30px;
+  font-family: "MuseoCyrl900";
+}
+
+.news__date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.news__body {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
