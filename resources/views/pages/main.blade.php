@@ -1,83 +1,29 @@
 @extends('layouts.master')
 
 @section('content')
-<section id="nav" class="container">
-  <nav class="right_nav">
-    <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right hide-on-med-and-down li_items">
-        <!-- <li>
-          <a href="/programm">
-            <div class="hover_a_nav">
-            Итоги
-          </div>
-          </a>
-        </li> -->
-        <li>
-          <a href="#info">
-            <div class="hover_a_nav">
-            Описание проекта
-            </div>
-          </a>
-        </li>
-        <li><a href="#nominations">
-            <div class="hover_a_nav">
-              Номинации
-            </div>
-          </a></li>
-        <li><a href="#organize">
-            <div class="hover_a_nav">
-              Организатор
-            </div>
-          </a></li>
-        <li><a href="#contact">
-            <div class="btn_a_nav">
-              Обратная связь
-            </div>
-          </a></li>
-      </ul>
-      <ul class="">
-        <nav class="mobile-menu">
-          <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
-          <label for="checkbox" class="mobile-menu__btn">
-            <div class="mobile-menu__icon"></div>
-          </label>
-          <div class="mobile-menu__container">
-            <ul class="mobile-menu__list">
-            <!-- <li class="mobile-menu__item"><a href="/programm" class="mobile-menu__link">Итоги</a></li> -->
-              <li class="mobile-menu__item"><a href="#info" class="mobile-menu__link">Описание проекта</a></li>
-              <li class="mobile-menu__item"><a href="#nominations" class="mobile-menu__link">Номинации</a></li>
-              <li class="mobile-menu__item"><a href="#organize" class="mobile-menu__link">Организатор</a></li>
-              <li class="mobile-menu__item"><a href="#contact" class="mobile-menu__link">Обратная связь</a></li>
-            </ul>
-          </div>
-        </nav>
-      </ul>
-    </div>
-  </nav>
-</section>
+@include('layouts.nav')
 <section id="header">
   <div class="header_font">
-    <img src="assets/img/Group_333.svg" alt="">
+    <img src="assets/img/Group_333.png" alt="">
   </div>
   <div class="header_title">
-    <div class="container">
+  <div class="container">
       <h1>Школа развития волонтерских IT-навыков "IT - на добрые дела"</h1>
       <!-- <h3>интерактивных реконструкций событий <br> Великой Отечественной войны</h3> -->
-      <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" onclick="modal_main_toggle();">Подать заявку</a>
-          <!-- <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" href="/programm">Итоги</a> -->
+      <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" onclick="modal_main_toggle();">Регистрация</a>
+      <!-- <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" href="/programm">Итоги</a> -->
 
     </div>
   </div>
 </section>
-@include('layouts.modalmain')
 <section id="info">
   <div class="container">
     <div class="row info_containers">
       <p class="info_z" id="info_vol">Описание проекта</p><br>
       <p class="info_z_down">
         <b>Основная идея проекта</b> - дать волонтерам и добровальцам, необходимые навыки в сфере ИТ, которые бы помогли им в их волонтерской деятельности. Развитие личностных компетенций, которые будут востребованы не только в профессиональной, благотворительной деятельности, но и в повседневной жизни.
-      <br><br>
-      Школа развития волонтерских навыков "IT - на добрые дела" представляет собой цикл мастер-классов и практических занятий в малых группах по 25-30 человек с учетом возмножных санитарных ограничений из-за коронавируса.
+        <br><br>
+        Школа развития волонтерских навыков "IT - на добрые дела" представляет собой цикл мастер-классов и практических занятий в малых группах по 25-30 человек с учетом возмножных санитарных ограничений из-за коронавируса.
       </p>
     </div>
   </div>
@@ -106,35 +52,50 @@
       <p class="info_z stages_img_padding">Цели и задачи</p>
       <div class="grid_col_stages">
         <div>
-          <div class="cell_red"><div></div><p>Цель</p></div>
+          <div class="cell_red">
+            <div></div>
+            <p>Цель</p>
+          </div>
           <!-- <img src="assets/img/stg3.svg" alt=""> -->
           <p class="text_stages">
             Повышение личностной и профессиональной эффективности волонтеров, через развитие навыков и умений в сфере ИТ, которые непосредственно используются в волонтерской деятельности
           </p>
         </div>
         <div>
-          <div class="cell_yellow"><div></div><p>Задача 1</p></div>
+          <div class="cell_yellow">
+            <div></div>
+            <p>Задача 1</p>
+          </div>
           <!-- <img src="assets/img/stg3.svg" alt=""> -->
           <p class="text_stages">
             организационно-методическая подготовка к проведению школы развития волонтерских ИТ навыков
           </p>
         </div>
         <div>
-          <div class="cell_yellow"><div></div><p>Задача 2</p></div>
+          <div class="cell_yellow">
+            <div></div>
+            <p>Задача 2</p>
+          </div>
           <!-- <img src="assets/img/stg3.svg" alt=""> -->
           <p class="text_stages">
             информирование волонтеров о проекте и возможностях, которые дает участие в школе развития волонтерских ИТ навыков
           </p>
         </div>
         <div>
-          <div class="cell_yellow"><div></div><p>Задача 3</p></div>
+          <div class="cell_yellow">
+            <div></div>
+            <p>Задача 3</p>
+          </div>
           <!-- <img src="assets/img/stg3.svg" alt=""> -->
           <p class="text_stages">
             развитие практических навыков и умений в сфере ИТ, которые будут непосредственно полезны участникам в их волонтерской деятельности
           </p>
         </div>
         <div>
-          <div class="cell_yellow"><div></div><p>Задача 4</p></div>
+          <div class="cell_yellow">
+            <div></div>
+            <p>Задача 4</p>
+          </div>
           <!-- <img src="assets/img/stg3.svg" alt=""> -->
           <p class="text_stages">
             тиражирование практики проведения школы развития волонтерских ИТ навыков среди добровальческих и волонтерских обьединений
@@ -214,7 +175,7 @@
           </div>
         </div>
         <div class="w-100" style="text-align:center;">
-          <a class="waves-effect waves-light btn btn_medal modal-trigger" onclick="modal_main_toggle();">Подать заявку</a>
+          <a class="waves-effect waves-light btn btn_medal modal-trigger" onclick="modal_main_toggle();">Регистрация</a>
           <a class="waves-effect waves-light btn btn_medal modal-trigger" href="/programm">Итоги</a>
 
         </div> -->
@@ -253,9 +214,8 @@
   </div>
   <div class="container">
     <div class="slider-produtos-wrap">
-      <div class="slider-produtos-destaque swiper-container">
+      <div class="swiper">
         <div class="swiper-wrapper">
-
           @foreach ($news as $new)
           <div class="swiper-slide">
             <div class="news__img">
@@ -280,9 +240,9 @@
                         <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
                       </filter>
                       <linearGradient id="paint0_linear" x1="-2.86881" y1="37" x2="44.1465" y2="33.6718" gradientUnits="userSpaceOnUse">
-                        <stop offset="0.00821062" stop-color="#E2575F" />
-                        <stop offset="0.609375" stop-color="#481659" />
-                        <stop offset="1" stop-color="#2B1B4E" />
+                        <stop offset="0.00821062" stop-color="#D81A12" />
+                        <stop offset="0.609375" stop-color="#D81A12" />
+                        <stop offset="1" stop-color="#D81A12" />
                       </linearGradient>
                     </defs>
                   </svg></a>
@@ -330,7 +290,7 @@
 </section> -->
 <section id="partners">
   <div class="container">
-    <p class="partners_title">Партнёры конкурса</p>
+    <p class="partners_title">Партнёры</p>
     <div class="flex_container_part">
       <div class="logo_part_container">
         <a href="https://rusinnovations.com" class="flex_cetnter">
@@ -389,56 +349,6 @@
       </div>
     </div>
   </div>
-  </div>
-</section>
-<section id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col xl12">
-        <div class="col xl8 s12">
-          <p class="footer_contact">
-            8(499) 753 01 25 <br>
-            8 (999) 852 65 25 - куратор Послова Алина
-            <br>
-            <a href="mailto:vrpatriot@rusinnovations.com">vrpatriot@rusinnovations.com</a>
-          </p>
-        </div>
-        <div class="col xl4 s12 text-right">
-          <!-- <a class="waves-effect waves-light btn btn_footer modal-trigger" onclick="modal_main_toggle();">Подать заявку</a> -->
-          <a class="waves-effect waves-light btn btn_footer modal-trigger" href="/programm">Итоги</a>
-
-        </div>
-        <div class="col">
-          <p class="footer_copy">Сайт разработан за счет средств Гранта (субсидии), предоставленных ФГБУ «Роспатриотцентр» на проведение мероприятий по содействию патриотическому воспитанию граждан Российской Федерации.</p>
-        </div>
-      </div>
-      <!-- Yandex.Metrika informer -->
-      <a href="https://metrika.yandex.ru/stat/?id=55276813&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/55276813/1_0_6B5E7CFF_4B3E5CFF_1_pageviews" style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" class="ym-advanced-informer" data-cid="55276813" data-lang="ru" /></a>
-      <!-- /Yandex.Metrika informer -->
-
-      <!-- Yandex.Metrika counter -->
-      <script type="text/javascript">
-        (function(m, e, t, r, i, k, a) {
-          m[i] = m[i] || function() {
-            (m[i].a = m[i].a || []).push(arguments)
-          };
-          m[i].l = 1 * new Date();
-          k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-        })
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(55276813, "init", {
-          clickmap: true,
-          trackLinks: true,
-          accurateTrackBounce: true,
-          webvisor: true
-        });
-      </script>
-      <noscript>
-        <div><img src="https://mc.yandex.ru/watch/55276813" style="position:absolute; left:-9999px;" alt="" /></div>
-      </noscript>
-      <!-- /Yandex.Metrika counter -->
-    </div>
   </div>
 </section>
 @endsection

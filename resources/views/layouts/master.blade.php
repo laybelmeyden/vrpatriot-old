@@ -15,16 +15,17 @@
   <link rel="SHORTCUT ICON" href="assets/img/506-5061203_-png-9-1.svg" type="image/x-icon">
   <!--соц сети-->
   <meta property="og:title" content="Всероссийский конкурс интерактивных реконструкций событий Великой Отечественной войны">
-<meta property="og:description" content="призван стимулировать молодежь к яркому и всестороннему освещению патриотической тематики, связанной с традициями и современными задачами патриотического воспитания, через применение современных технических, цифровых средств в своих проектах. Особенностью конкурса 2020 года является его тематическая направленность, посвященная 75-летию Победы в Великой Отечественной войне.">
-<meta property="og:image" content="assets/img/rty.png">
-<meta itemprop="image" content="assets/img/rty.png"/>
-<meta name="twitter:image:src" content="assets/img/rty.png"/>
-<meta property="og:url" content="">
+  <meta property="og:description" content="призван стимулировать молодежь к яркому и всестороннему освещению патриотической тематики, связанной с традициями и современными задачами патриотического воспитания, через применение современных технических, цифровых средств в своих проектах. Особенностью конкурса 2020 года является его тематическая направленность, посвященная 75-летию Победы в Великой Отечественной войне.">
+  <meta property="og:image" content="assets/img/rty.png">
+  <meta itemprop="image" content="assets/img/rty.png" />
+  <meta name="twitter:image:src" content="assets/img/rty.png" />
+  <meta property="og:url" content="">
 
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/materialize.css">
   <link href="{{ asset('css/scss_main.css') }}" rel="stylesheet">
-  
+  <link href="{{ asset('assets/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -42,7 +43,7 @@
   </div>
   @endif
   @yield('content')
-  @include('layouts.modalcookie')
+  @include('layouts.modalmain')
   @include('layouts.footer')
   @include('layouts.scripts')
 </body>

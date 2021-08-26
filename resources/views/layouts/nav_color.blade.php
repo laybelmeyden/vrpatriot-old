@@ -1,7 +1,7 @@
 <section id="nav" class="container">
-  <nav class="right_nav">
+  <nav class="right_nav colorize">
     <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right hide-on-med-and-down li_items">
+    <ul id="nav-mobile" class="right hide-on-med-and-down li_items">
         <!-- <li>
           <a href="/programm">
             <div class="hover_a_nav">
@@ -33,7 +33,7 @@
           </a></li>
       </ul>
       <ul class="">
-        <nav class="mobile-menu">
+      <nav class="mobile-menu">
           <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
           <label for="checkbox" class="mobile-menu__btn">
             <div class="mobile-menu__icon"></div>

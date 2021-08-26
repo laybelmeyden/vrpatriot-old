@@ -124,15 +124,21 @@ h3 {
 }
 
 #header h1 {
-    padding-top: 155px;
     color: white;
     font-family: "MuseoCyrl500";
     font-size: 52px;
     line-height: 62px;
     text-transform: uppercase;
     max-width: 650px;
+    word-break: break-word;
 }
-
+.header_title{
+    padding-top: 155px;
+    background-image: url(../img/drawing.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
 .btn_header {
     background: #D81A12 !important;
     border-radius: 60px !important;
@@ -240,11 +246,12 @@ h3 {
 }
 
 #header {
-    background-image: url(../img/Group31.svg);
-    height: 610px;
+    background-image: url(../img/1610216953_1-p-fon-volonteri-222.jpg);
+    min-height: 610px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: auto;
 }
 
 .header_main_text {
@@ -950,11 +957,11 @@ textarea:focus {
 }
 
 .partners_title {
-    font-family: "MuseoCyrl500";
+    font-family: "MuseoCyrl900";
     font-size: 28px;
     line-height: 29px;
     text-transform: uppercase;
-    color: #4B3E5C;
+    color: #425C5A;
     padding-bottom: 51px;
     padding-top: 70px;
     margin: 0px;
@@ -1008,7 +1015,16 @@ iframe {
     justify-content: center;
     align-items: center;
 }
-
+#footer{
+    padding: 62px 0;
+}
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+.footer_btn{
+    margin: 0 !important;
+}
 .footer_contact {
     font-family: "Roboto";
     font-style: normal;
@@ -1016,7 +1032,6 @@ iframe {
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    margin-top: 61px;
     width: 100%;
     word-break: break-word;
 }
@@ -1468,10 +1483,19 @@ select {
     height: 50px;
     display: none;
 }
-
+.colorize{
+    background: #425C5A !important;
+    height: 84px;
+}
 nav {
     -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 0px 0px 0px rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12), 0 0px 0px 0px rgba(0, 0, 0, 0.2) !important;
+}
+.news__container{
+    background-image: url(../img/nomdown.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 550px;
+    background-size: contain;
 }
 
 .mobile-menu__btn {
@@ -1678,6 +1702,12 @@ nav {
 }
 
 @media only screen and (max-width: 992px) {
+    .footer__col{
+        flex-direction: column;
+    }
+    #header{
+        padding-bottom: 30px;
+    }
     .form_btn_main {
         display: flex;
         flex-direction: column-reverse;
@@ -1714,8 +1744,10 @@ nav {
         width: 100%;
     }
     #header h1 {
-        padding-top: 50px;
         text-align: center;
+    }
+    .header_title{
+        padding-top: 50px;
     }
     #header h3 {
         font-size: 20px;

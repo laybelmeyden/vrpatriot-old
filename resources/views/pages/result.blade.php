@@ -205,56 +205,53 @@
 <div class="container">
   <div class="row">
     <h1 class="info_z stages_img_padding">Заявки поданные на конкурс</h1>
-    <a href="/excel_export" class="waves-effect waves-light btn btn_header modal-trigger" style="margin: 0 auto; margin-bottom: 30px;">Выгрузить проекты в эксель</a>
+    <!-- <a href="/excel_export" class="waves-effect waves-light btn btn_header modal-trigger" style="margin: 0 auto; margin-bottom: 30px;">Выгрузить проекты в эксель</a> -->
     <ul>
       @foreach ($mainforms as $mainform)
       <div>
       <li>
         <input type="checkbox" checked>
         <i></i>
-        <div><p class="res_p">{{ $mainform -> id}}</p> - <p class="res_mian">{{ $mainform -> name_project}}</p></div>
+        <div><p class="res_p">{{ $mainform -> id}}</p> - <p class="res_mian">{{ $mainform -> fio}}</p></div>
         <p><br>
-          Имя = {{ $mainform -> fio}}<br>
-          Фамилия = {{ $mainform -> fio2}}<br>
-          Отчество = {{ $mainform -> fio3}}<br>
-          Дата рождения = {{ $mainform -> day}}.{{ $mainform -> mouth}}.{{ $mainform -> years}}<br>
-          EMAIL = {{ $mainform -> email}} <br>
+          ФИО = {{ $mainform -> fio}}<br>
+          ПОЧТА = {{ $mainform -> email}} <br>
           Телефон = {{ $mainform -> phone}} <br>
-          Почтовый индекс = {{ $mainform -> pocht_index}} <br>
-          @if ($mainform['vk'] !== null)
+          Место учёбы/работы = {{ $mainform -> pocht_index}} <br>
+          Возраст = {{ $mainform -> edu}} <br>
+          <!-- @if ($mainform['vk'] !== null)
           VK = <a href="{{ $mainform -> vk}}">{{ $mainform -> vk}}</a> <br>
-          @endif
-          @if ($mainform['facebook'] !== null)
+          @endif -->
+          <!-- @if ($mainform['facebook'] !== null)
           facebook = <a href="{{ $mainform -> facebook}}">{{ $mainform -> facebook}}</a> <br>
-          @endif
-          @if ($mainform['instagram'] !== null)
+          @endif -->
+          <!-- @if ($mainform['instagram'] !== null)
           instagram = <a href="{{ $mainform -> instagram}}">{{ $mainform -> instagram}}</a> <br>
-          @endif
-          Город = {{ $mainform -> city}} <br>
-          Образование = {{ $mainform -> edu}} <br>
-          Номинация = {{ $mainform -> select_mon}} <br>
-          Краткое описание проекта (300 символов) = {{ $mainform -> opis_proj}} <br><br>
-          Команда<br><br>
-          ФИО члена команды 1 = {{ $mainform -> name_team}} <br>
+          @endif -->
+          <!-- Город = {{ $mainform -> city}} <br> -->
+          <!-- Номинация = {{ $mainform -> select_mon}} <br> -->
+          <!-- Краткое описание проекта (300 символов) = {{ $mainform -> opis_proj}} <br><br> -->
+          <!-- Команда<br><br> -->
+          <!-- ФИО члена команды 1 = {{ $mainform -> name_team}} <br>
           Почта члена команды 1 = {{ $mainform -> email_team}} <br>
           Роль члена команды 1 = {{ $mainform -> role_team}} <br>
           Телефон члена команды 1 = {{ $mainform -> phone_team}} <br><br>
           @if ($mainform['name_team_1'] || $mainform['email_team_1'] !== null)
-          Доп член команды<br><br>
-          ФИО члена команды 2 = {{ $mainform -> name_team_1}} <br>
+          Доп член команды<br><br> -->
+          <!-- ФИО члена команды 2 = {{ $mainform -> name_team_1}} <br>
           Почта члена команды 2 = {{ $mainform -> email_team_1}} <br>
           Роль члена команды 2 = {{ $mainform -> role_team_1}} <br>
           Телефон члена команды 2 = {{ $mainform -> phone_team_1}} <br>
-          @endif
-          @if ($mainform['drop_box_file'] !== null)
+          @endif -->
+          <!-- @if ($mainform['drop_box_file'] !== null)
           <br><br>
           Ссылка на файл в облаке - <a href="{{ $mainform -> drop_box_file}}">{{ $mainform -> drop_box_file}}</a>
           <br><br>
-          @endif
-          Прикрепленные файлы <br><br>
+          @endif -->
+          <!-- Прикрепленные файлы <br><br>
           @foreach ($mainform-> file_names  as $file_name)
           <a download href="{{ asset('storage/'.$file_name -> filename)}}">{{ asset($file_name -> filename)}}</a><br>
-          @endforeach
+          @endforeach -->
         </p>
       </li>
       </div>

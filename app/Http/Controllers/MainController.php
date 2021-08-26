@@ -60,8 +60,8 @@ class MainController extends Controller
   public function main_form(Request $request)
   {
     $items = MainForm::create($request->all());
-    back()->with('message_1', 'Ожидайте письмо-подтверждение о получении проекта на E-mail, указанный в заявке');
-    return redirect('/')->with('message', 'ВАША ЗАЯВКА ОТПРАВЛЕНА!');
+    back()->with('message_1', 'Вы зарегистрированы');
+    return redirect('/')->with('message', 'Большое спасибо!');
     // if($request['g-recaptcha-response']){
     //   $this->validate(request(), [
     //     'g-recaptcha-response' => 'required|captcha'
