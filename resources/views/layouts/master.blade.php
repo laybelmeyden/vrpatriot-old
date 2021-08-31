@@ -2,23 +2,23 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-  <title>Всероссийский конкурс интерактивных реконструкций событий Великой Отечественной войны</title>
+  <title>Школа развития волонтерских IT-навыков "IT - на добрые дела"</title>
   <!--meta-->
   <meta charset="UTF-8">
   <meta name="yandex-verification" content="dc70469ab3fdb89d" />
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <meta name="description" content="Всероссийский конкурс интерактивных реконструкций событий Великой Отечественной войны" />
-  <META NAME="keywords" CONTENT="Всероссийский конкурс интерактивных реконструкций событий Великой Отечественной войны">
+  <meta name="description" content="Школа развития волонтерских IT-навыков "IT - на добрые дела"" />
+  <META NAME="keywords" CONTENT="Школа развития волонтерских IT-навыков "IT - на добрые дела"">
   <META NAME="AUTHOR" CONTENT="https://vk.com/glrlcocks">
   <meta name="revisit-after" content="5 days">
   <link rel="SHORTCUT ICON" href="assets/img/506-5061203_-png-9-1.svg" type="image/x-icon">
   <!--соц сети-->
-  <meta property="og:title" content="Всероссийский конкурс интерактивных реконструкций событий Великой Отечественной войны">
-  <meta property="og:description" content="призван стимулировать молодежь к яркому и всестороннему освещению патриотической тематики, связанной с традициями и современными задачами патриотического воспитания, через применение современных технических, цифровых средств в своих проектах. Особенностью конкурса 2020 года является его тематическая направленность, посвященная 75-летию Победы в Великой Отечественной войне.">
-  <meta property="og:image" content="assets/img/rty.png">
-  <meta itemprop="image" content="assets/img/rty.png" />
-  <meta name="twitter:image:src" content="assets/img/rty.png" />
+  <meta property="og:title" content="Школа развития волонтерских IT-навыков "IT - на добрые дела"">
+  <meta property="og:description" content="Основная идея проекта - дать волонтерам и добровальцам, необходимые навыки в сфере ИТ, которые бы помогли им в их волонтерской деятельности.">
+  <meta property="og:image" content="assets/img/1610216953_1-p-fon-volonteri-222.jpg">
+  <meta itemprop="image" content="assets/img/1610216953_1-p-fon-volonteri-222.jpg" />
+  <meta name="twitter:image:src" content="assets/img/1610216953_1-p-fon-volonteri-222.jpg" />
   <meta property="og:url" content="">
 
   <link rel="stylesheet" href="assets/css/main.css">
