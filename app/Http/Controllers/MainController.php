@@ -7,6 +7,7 @@ use App\MainForm;
 use App\FileName;
 use App\News;
 use Excel;
+use File;
 use App\Exports\ProjectExport;
 
 class MainController extends Controller
@@ -33,30 +34,32 @@ class MainController extends Controller
   }
   public function contact(Request $request)
   {
-    if($request['g-recaptcha-response']){
-      $this->validate(request(), [
-        'g-recaptcha-response' => 'required|captcha'
-    ]);
-      // $to_name = "vrpatriot";
-      // $to_email = "vrpatriot@rusinnovations.com";
-      // $data = array(
-      //     'contact_email' => request('contact_email'),
-      //     'phone' => request('phone'),
-      //     'text_contact' => request('text_contact'),
-      // );
-      //   \Mail::send('email.mailcontact', $data, function($message) use ($data, $to_email, $to_name)
-      //   {
-      //     $message->from($to_email, $data['contact_email'],$data['phone'], $data['text_contact']);
-      //     $message->to($to_email)->subject('Message from site');
-      //  });
-  
-      back()->with('message_1', 'Ваш вопрос отправлен куратору конкурса и в ближайшее время мы свяжемся с вами, чтобы ответить на него!');
-      return redirect('/')->with('message', 'СПАСИБО ЗА ВАШУ АКТИВНОСТЬ И ИНТЕРЕС!');
-    }else{
-      back()->with('message_1', 'Проверьте правильность заполненных данных и отправьте форму еще раз!');
-      return redirect('/')->with('message', 'Ваш вопрос не был отправлен !');
-    }
-    }
+      back()->with('message_1', 'В ближайшее время мы свяжемся с вами, чтобы ответить на него!');
+      return redirect('/')->with('message', 'Ваш вопрос отправлен!');
+    // if ($request['g-recaptcha-response']) {
+    //   $this->validate(request(), [
+    //     'g-recaptcha-response' => 'required|captcha'
+    //   ]);
+    //   $to_name = "vrpatriot";
+    //   $to_email = "vrpatriot@rusinnovations.com";
+    //   $data = array(
+    //       'contact_email' => request('contact_email'),
+    //       'phone' => request('phone'),
+    //       'text_contact' => request('text_contact'),
+    //   );
+    //     \Mail::send('email.mailcontact', $data, function($message) use ($data, $to_email, $to_name)
+    //     {
+    //       $message->from($to_email, $data['contact_email'],$data['phone'], $data['text_contact']);
+    //       $message->to($to_email)->subject('Message from site');
+    //    });
+
+    //   back()->with('message_1', 'Ваш вопрос отправлен куратору конкурса и в ближайшее время мы свяжемся с вами, чтобы ответить на него!');
+    //   return redirect('/')->with('message', 'СПАСИБО ЗА ВАШУ АКТИВНОСТЬ И ИНТЕРЕС!');
+    // } else {
+    //   back()->with('message_1', 'Проверьте правильность заполненных данных и отправьте форму еще раз!');
+    //   return redirect('/')->with('message', 'Ваш вопрос не был отправлен !');
+    // }
+  }
   public function main_form(Request $request)
   {
     $items = MainForm::create($request->all());
@@ -117,7 +120,17 @@ class MainController extends Controller
     return "oks";
   }
   public function excel_export()
-    {
-        return Excel::download(new ProjectExport, 'projects.xlsx');
+  {
+    return Excel::download(new ProjectExport, 'projects.xlsx');
+  }
+  public function photos()
+  {
+    $result = array();
+    $dirs  = File::Files(public_path('assets/img/light'));
+    foreach ($dirs as $item) {
+      array_push($result, $item->getFilename());
     }
+
+    return view('pages.photos', compact('result'));
+  }
 }

@@ -125,8 +125,8 @@ h3 {
 
 #header h1 {
     color: white;
-    font-family: "MuseoCyrl500";
-    font-size: 52px;
+    font-family: "MuseoCyrl900";
+    font-size: 42px;
     line-height: 62px;
     text-transform: uppercase;
     max-width: 650px;
@@ -134,10 +134,10 @@ h3 {
 }
 .header_title{
     padding-top: 155px;
-    background-image: url(../img/drawing.svg);
+    /* background-image: url(../img/drawing.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left;
+    background-position: left; */
 }
 .btn_header {
     background: #D81A12 !important;
@@ -246,12 +246,13 @@ h3 {
 }
 
 #header {
-    background-image: url(../img/1610216953_1-p-fon-volonteri-222.jpg);
+    /* background-image: url(../img/1610216953_1-p-fon-volonteri-222.jpg); */
     min-height: 610px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
     height: auto;
+    background-color: #425C5A !important;
 }
 
 .header_main_text {
@@ -748,12 +749,12 @@ nav a {
 
 #contact {
     background: #425C5A;
-    z-index: -1;
+    /* z-index: -1;
     height: auto;
     background-image: url(../img/bigstar.svg);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
 }
 
 .row {
@@ -782,9 +783,9 @@ nav a {
     flex-direction: column;
 }
 
-.main_contact {
+/* .main_contact {
     padding-left: 450px;
-}
+} */
 
 .contact_title {
     font-family: "Roboto";
@@ -833,17 +834,6 @@ textarea:focus {
     outline: 0 !important;
 }
 
-.input_contact::placeholder,
-.text_area_cotnatc::placeholder {
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 300;
-    font-size: 14px !important;
-    line-height: 16px;
-    color: #FFFFFF;
-    margin-right: 38px;
-    padding-right: 2px;
-}
 
 .a-right {
     text-align: right;

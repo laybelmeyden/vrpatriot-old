@@ -66,7 +66,7 @@
                                   <input class="input_main_form_modal" type="text" name="phone" placeholder="" value="" required>
                               </div>
                               <div class="form_item">
-                                  <label for="" class="modal_input_label">Место учёбы/работы <span>(укажите название образовательного учреждения, в котором вы учитесь или которое уже окончили или место, где работаетеукажите название образовательного учреждения, в котором вы учитесь или которое уже окончили или место, где работаете)</span></label>
+                                  <label for="" class="modal_input_label">Место учёбы/работы <span>(укажите название образовательного учреждения, в котором вы учитесь или которое уже окончили или место, где работаете)</span></label>
                                   <input class="input_main_form_modal" type="text" name="pocht_index" placeholder="" value="" required>
                               </div>
                               <!-- <div class="form_item">
@@ -93,6 +93,14 @@
                               <div class="form_item">
                                   <label for="" class="modal_input_label">Возраст</label>
                                   <input class="input_main_form_modal" type="number" name="edu" placeholder="" value="" required>
+                              </div>
+                              <div class="form_item">
+                                  <label for="" class="modal_input_label">Чему вы хотите научиться в рамках IT Школы?</label>
+                                  <select class="form-select" name="city" aria-label="Default select example" required>
+                                      <option disabled selected value="">Выберите тематику Школы:</option>
+                                      <option value="15-16 октября - мобильные и web-технологии, SMM, VR и AR в волонтерской практике, использование мультикоптеров в работе волонтеров">15-16 октября - мобильные и web-технологии, SMM, VR и AR в волонтерской практике, использование мультикоптеров в работе волонтеров</option>
+                                      <option value="17 октября - Пользовательские навыки в сети интернет, а так же использование различных онлайн-сервисов, в том числе, сервисов по дистанционному общению и технологии социальных коммуникаций">17 октября - Пользовательские навыки в сети интернет, а так же использование различных онлайн-сервисов, в том числе, сервисов по дистанционному общению и технологии социальных коммуникаций</option>
+                                  </select>
                               </div>
                               <!-- <div class="form_item">
                                   <label for="" class="modal_input_label">Название проекта</label>
@@ -161,7 +169,7 @@
                                   </div>
                               </div> -->
                               <div class="form_item c items_captcha">
-                              <!-- <div class="">
+                                  <!-- <div class="">
                                   {!! NoCaptcha::renderJs() !!}
                                   {!! NoCaptcha::display() !!}
                               </div> -->

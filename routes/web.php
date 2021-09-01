@@ -22,7 +22,7 @@ Auth::routes();
 
 Route::get('/', 'MainController@index')->name('main');
 Route::get('/programm', 'MainController@programm')->name('programm');
-
+Route::get('/photos', 'MainController@photos')->name('photos');
 Route::get('/result', 'MainController@result')->name('result');
 
 Route::post('/contact', 'MainController@contact');

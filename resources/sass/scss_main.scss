@@ -85,9 +85,7 @@
         }
     }
 }
-#nominations{
-    margin-bottom: 40px;
-}
+
 .footer__logos{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -99,6 +97,7 @@
 }
 #news {
     margin-bottom: 40px;
+    margin-top: 41px;
     .news__title {
         font-style: normal;
         font-weight: bold;
@@ -173,6 +172,74 @@
         .btn__news {
             width: 100%;
             text-align: right;
+        }
+    }
+}
+#modalmain{
+    select{
+        display: block !important;
+    }
+}
+#uchat {
+    .nominations_title {
+        color: #425C5A;
+        font-family: "MuseoCyrl900";
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        padding-top: 30px !important;
+        padding-bottom: 40px !important;
+        margin: 0 !important;
+    }
+    .div_ucaht{
+        p{
+            font-family: "MontserratL";
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000 !important;
+        }
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding-bottom: 41px;
+    }
+}
+#gallls{
+    padding-top: 90px;
+    background: rgba(229, 229, 229, 0.45);
+    .galls__title {
+        padding-top: 46px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #A1A0CC;
+        padding-bottom: 46px;
+        font-family: "MuseoCyrl900";
+    }
+    #lightgallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        a {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        padding-bottom: 90px;
+        .blur-up {
+            -webkit-filter: blur(5px);
+            filter: blur(5px);
+            transition: filter 400ms, -webkit-filter 400ms;
+        }
+        .blur-up.lazyloaded {
+            -webkit-filter: blur(0);
+            filter: blur(0);
         }
     }
 }

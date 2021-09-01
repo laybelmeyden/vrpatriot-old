@@ -7,8 +7,9 @@
     <img src="assets/img/Group_333.png" alt="">
   </div>
   <div class="header_title">
-  <div class="container">
+    <div class="container">
       <h1>Школа развития волонтерских IT-навыков "IT - на добрые дела"</h1>
+      <h3>г.Омск, 15-17 октября</h3>
       <!-- <h3>интерактивных реконструкций событий <br> Великой Отечественной войны</h3> -->
       <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" onclick="modal_main_toggle();">Регистрация</a>
       <!-- <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" href="/programm">Итоги</a> -->
@@ -25,6 +26,11 @@
         <br><br>
         Школа развития волонтерских навыков "IT - на добрые дела" представляет собой цикл мастер-классов и практических занятий в малых группах по 25-30 человек с учетом возмножных санитарных ограничений из-за коронавируса.
       </p>
+      <p class="info_z" id="info_vol">Цель проекта</p><br>
+      <p class="info_z_down">
+        Повышение личностной и профессиональной эффективности волонтеров, через развитие навыков и умений в сфере ИТ, которые непосредственно используются в волонтерской деятельности
+      </p>
+      <br><br>
     </div>
   </div>
 </section>
@@ -46,7 +52,7 @@
     </div>
   </div>
 </section> -->
-<section id="stages">
+<!-- <section id="stages">
   <div class="container">
     <div class="row">
       <p class="info_z stages_img_padding">Цели и задачи</p>
@@ -56,7 +62,7 @@
             <div></div>
             <p>Цель</p>
           </div>
-          <!-- <img src="assets/img/stg3.svg" alt=""> -->
+          <img src="assets/img/stg3.svg" alt="">
           <p class="text_stages">
             Повышение личностной и профессиональной эффективности волонтеров, через развитие навыков и умений в сфере ИТ, которые непосредственно используются в волонтерской деятельности
           </p>
@@ -66,7 +72,7 @@
             <div></div>
             <p>Задача 1</p>
           </div>
-          <!-- <img src="assets/img/stg3.svg" alt=""> -->
+          <img src="assets/img/stg3.svg" alt="">
           <p class="text_stages">
             организационно-методическая подготовка к проведению школы развития волонтерских ИТ навыков
           </p>
@@ -76,7 +82,7 @@
             <div></div>
             <p>Задача 2</p>
           </div>
-          <!-- <img src="assets/img/stg3.svg" alt=""> -->
+          <img src="assets/img/stg3.svg" alt="">
           <p class="text_stages">
             информирование волонтеров о проекте и возможностях, которые дает участие в школе развития волонтерских ИТ навыков
           </p>
@@ -86,7 +92,7 @@
             <div></div>
             <p>Задача 3</p>
           </div>
-          <!-- <img src="assets/img/stg3.svg" alt=""> -->
+          <img src="assets/img/stg3.svg" alt="">
           <p class="text_stages">
             развитие практических навыков и умений в сфере ИТ, которые будут непосредственно полезны участникам в их волонтерской деятельности
           </p>
@@ -96,20 +102,20 @@
             <div></div>
             <p>Задача 4</p>
           </div>
-          <!-- <img src="assets/img/stg3.svg" alt=""> -->
+          <img src="assets/img/stg3.svg" alt="">
           <p class="text_stages">
             тиражирование практики проведения школы развития волонтерских ИТ навыков среди добровальческих и волонтерских обьединений
           </p>
         </div>
       </div>
-      <!-- <div class="col xl12" style="width: 100%;">
+      <div class="col xl12" style="width: 100%;">
         <div class="flex_align">
           <a href="https://drive.google.com/file/d/1M426ujPLx0cGJM1NlDuaGGHrsdFbW2XA/view?usp=sharing" target="_blank" class=" btn btn_download"><img src="assets/img/download.svg" class="img_dowmload">СКАЧАТЬ ПОЛОЖЕНИЕ О КОНКУРСЕ</a>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
-</section>
+</section> -->
 <section id="nominations">
   <div class="nom_down_r">
     <div class="container">
@@ -123,7 +129,7 @@
             <div class="card-content">
               <!-- <p class="nominations_card_text_title">Реконструкция с применением VR- и AR-технологий. </p> -->
               <p class="nominations_card_text_body">
-                Получение необходимых практических навыков и знаний в сфере ИТ, которые будут полезны не только в непосредственной волонтерской деятельности, но и в повседневной жизни.
+                Необходимые практические навыки и знания в сфере ИТ, которые будут полезны не только в непосредственной волонтерской деятельности, но и в повседневной жизни
               </p>
             </div>
           </div>
@@ -136,7 +142,7 @@
             <div class="card-content">
               <!-- <p class="nominations_card_text_title">3D-моделирование и анимация.</p> -->
               <p class="nominations_card_text_body">
-                Для старшего поколения - повышение пользовательских навыков по онлайн сервисам, сервисам социальной коммуникации
+                Смогут развить пользовательские навыки по онлайн сервисам и сервисам социальной коммуникации
               </p>
             </div>
           </div>
@@ -149,7 +155,19 @@
             <div class="card-content">
               <!-- <p class="nominations_card_text_title">Реконструкция в формате компьютерной игры.</p> -->
               <p class="nominations_card_text_body">
-                Повышение эффективности волонтерской деятельности = минимизация временных ресурсов на организацию добрых дел
+                Волонтёры научатся:
+
+                · Созданию простейших интернет страниц (сайтов)
+
+                · Созданию и проведению онлайн мероприятий
+
+                · Продвижению тематических страниц в социальных сетях
+
+                · Геопозиционированию и новым технологиям в поисковой деятельности
+
+                · Технологиям социальных коммуникаций
+
+                · Пользовательским навыкам в сети интернет
               </p>
             </div>
           </div>
@@ -179,36 +197,18 @@
           <a class="waves-effect waves-light btn btn_medal modal-trigger" href="/programm">Итоги</a>
 
         </div> -->
+        <section id="uchat">
+          <p class="nominations_title">Участники</p>
+          <div class="div_ucaht">
+            <p>Волонтеры в возрасте от 16-35 лет, заинтересованные в получении новых IT-навыков</p>
+            <p>Волонтеры в возрасте от 35+ лет, стремящиеся овладеть минимальными пользовательскими знаниями в сфере IT</p>
+          </div>
+        </section>
       </div>
     </div>
   </div>
 </section>
-<!-- <section id="contact">
-  <div class="container grid_contact_main">
-    <div class="img_fluid_contact">
-      <img src="assets/img/bigstar.svg" alt="" class="img_contact">
-    </div>
-    <div class="main_contact row">
-      <p class="contact_title">Если у вас возникли вопросы, связанные с конкурсом, напишите нам через данную форму обратной связи</p>
-      <form action="/contact" method="POST" class="fs-form fs-form-full" autocomplete="off" enctype="multipart/form-data">
-        {{ csrf_field() }}
-        <input type="email" class="input_contact" name="contact_email" placeholder="E-mail" required>
-        <input type="text" class="input_contact" name="phone" placeholder="Телефон" required>
-        <textarea class="text_area_cotnatc" name="text_contact" placeholder="Ваш вопрос" required></textarea>
-        <div class="form_btn_main">
-        <div class="captchajs">
-          {!! NoCaptcha::renderJs() !!}
-          {!! NoCaptcha::display() !!}
-        </div>
-        <div class="w-100 a-right btn_pd">
-          <button type="submit" class="btn_contact">Отправить</button>
-        </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</section> -->
-<section id="news">
+<!-- <section id="news">
   <div class="container">
     <p class="news__title">НОВОСТИ И МЕРОПРИЯТИЯ</p>
   </div>
@@ -257,6 +257,35 @@
       <div class="swiper-next"></div>
     </div>
   </div>
+</section> -->
+<section id="contact">
+  <div class="container grid_contact_main">
+    <div class="main_contact row">
+      <p class="contact_title">Если у вас возникли вопросы, напишите нам через данную форму обратной связи</p>
+      <form action="/contact" method="POST" class="fs-form fs-form-full" autocomplete="off" enctype="multipart/form-data">
+        {{ csrf_field() }}
+        <div class="form_item">
+          <input type="text" class="input_contact" name="contact_name" placeholder="Имя" required>
+        </div>
+        <div class="form_item">
+          <input type="email" class="input_contact" name="contact_email" placeholder="E-mail" required>
+        </div>
+        <div class="form_item">
+          <input type="text" class="input_contact" name="phone" placeholder="Телефон" required>
+        </div>
+        <textarea class="text_area_cotnatc" name="text_contact" placeholder="Ваш вопрос" required></textarea>
+        <div class="form_btn_main">
+          <!-- <div class="captchajs">
+          {!! NoCaptcha::renderJs() !!}
+          {!! NoCaptcha::display() !!}
+        </div> -->
+          <div class="w-100 a-right btn_pd">
+            <button type="submit" class="btn_contact">Отправить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </section>
 <!-- <section id="organize">
   <div class="container">
@@ -288,7 +317,7 @@
     </div>
   </div>
 </section> -->
-<section id="partners">
+<!-- <section id="partners">
   <div class="container">
     <p class="partners_title">Партнёры</p>
     <div class="flex_container_part">
@@ -350,5 +379,5 @@
     </div>
   </div>
   </div>
-</section>
+</section> -->
 @endsection

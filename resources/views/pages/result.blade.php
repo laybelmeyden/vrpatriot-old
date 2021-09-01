@@ -219,6 +219,7 @@
           Телефон = {{ $mainform -> phone}} <br>
           Место учёбы/работы = {{ $mainform -> pocht_index}} <br>
           Возраст = {{ $mainform -> edu}} <br>
+          Чему вы хотите научиться в рамках IT Школы? = {{ $mainform -> city}} <br>
           <!-- @if ($mainform['vk'] !== null)
           VK = <a href="{{ $mainform -> vk}}">{{ $mainform -> vk}}</a> <br>
           @endif -->
