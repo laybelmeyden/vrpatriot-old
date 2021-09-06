@@ -1,12 +1,12 @@
-function modal_main_toggle() {
-    document.querySelector("#body_modal").classList.toggle('visible');
-    document.querySelector(".body").classList.toggle('noscroll');
-}
+// function modal_main_toggle() {
+//     document.querySelector("#body_modal").classList.toggle('visible');
+//     document.querySelector(".body").classList.toggle('noscroll');
+// }
 
 
-function modal_main_toggle_close() {
-    document.getElementById("modalflat").classList.toggle('visible');
-}
+// function modal_main_toggle_close() {
+//     document.getElementById("modalflat").classList.toggle('visible');
+// }
 // const modal_cookie_open = () => {
 //     document.getElementById("cok_modal").classList.add('modal_notifications_visible');
 // };
