@@ -9,7 +9,7 @@
   <div class="header_title">
     <div class="container">
       <h1>Школа развития волонтерских IT-навыков "IT - на добрые дела"</h1>
-      <h3>г.Омск, 15-17 октября, Конференц-Холл на Жукова 21</h3>
+      <h3>г.Омск, 15-17 октября <br> Конференц-Холл на Жукова 21</h3>
       <!-- <h3>интерактивных реконструкций событий <br> Великой Отечественной войны</h3> -->
       <!-- <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" onclick="modal_main_toggle();">Регистрация</a> -->
       <a href="https://anoasi.timepad.ru/event/1763103/#register" class="waves-effect waves-light btn btn_header ">Регистрация</a>
