@@ -1,6 +1,6 @@
-<section id="nav" class="container">
+<section id="nav">
   <nav class="right_nav">
-    <div class="nav-wrapper">
+    <div class="nav-wrapper container">
       <ul id="nav-mobile" class="right hide-on-med-and-down li_items">
         <!-- <li>
           <a href="/programm">
@@ -26,7 +26,7 @@
               Новости
             </div>
           </a></li>
-        <li><a href="/#footer">
+        <li><a href="/#footer" class="btn__footer_nav">
             <div class="btn_a_nav">
               Контакты
             </div>

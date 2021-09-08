@@ -1,13 +1,13 @@
-*{
+* {
     scroll-behavior: smooth;
 }
-.news__container{
+.news__container {
     .news__title {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: normal;
-        color: #425C5A;
+        color: #425c5a;
         margin: 0;
         padding-top: 110px;
         padding-bottom: 30px;
@@ -29,7 +29,7 @@
     }
 }
 #stages {
-    .grid_col_stages{
+    .grid_col_stages {
         grid-row-gap: 60px;
     }
     .cell_red {
@@ -58,7 +58,7 @@
             top: -25px;
         }
     }
-    .cell_yellow{
+    .cell_yellow {
         position: relative;
         display: flex;
         align-items: center;
@@ -77,7 +77,7 @@
             position: absolute;
             width: 60px;
             height: 60px;
-            background-color: #D6A217 !important;
+            background-color: #d6a217 !important;
             border-radius: 60px;
             z-index: -1;
             margin-right: 115px;
@@ -85,12 +85,51 @@
         }
     }
 }
-
-.footer__logos{
+#header {
+    .header_title {
+        .date {
+            font-family: "MuseoCyrl500";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 72px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        .time {
+            font-family: "MuseoCyrl500";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 48px;
+            color: #ffffff;
+            padding-bottom: 45px;
+        }
+        .name_title {
+            font-family: "MuseoCyrl500";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 60px;
+            padding-bottom: 10px;
+            color: #ffffff;
+        }
+        .city {
+            font-family: "MuseoCyrl500";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 48px;
+            padding-top: 45px;
+            color: #ffffff;
+        }
+    }
+}
+.footer__logos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    img{
+    img {
         max-width: 200px;
         width: 100%;
     }
@@ -106,7 +145,7 @@
         /* identical to box height, or 100% */
         text-align: center;
         text-transform: uppercase;
-        color: #425C5A;
+        color: #425c5a;
         font-family: "MuseoCyrl900";
         padding-bottom: 47px;
     }
@@ -118,8 +157,8 @@
     .swiper-slide {
         z-index: 1;
         height: auto;
-        background: #425C5A;
-        box-shadow: 0px -4px 6px rgba(255, 255, 255, 0.2), 0px 4px 4px #425C5A;
+        background: #425c5a;
+        box-shadow: 0px -4px 6px rgba(255, 255, 255, 0.2), 0px 4px 4px #425c5a;
         border-radius: 30px;
     }
     .swiper-prev,
@@ -166,7 +205,7 @@
             font-size: 18px;
             line-height: 34px;
             /* or 189% */
-            color: #FFFFFF;
+            color: #ffffff;
             min-height: 100px;
         }
         .btn__news {
@@ -175,14 +214,14 @@
         }
     }
 }
-#modalmain{
-    select{
+#modalmain {
+    select {
         display: block !important;
     }
 }
 #uchat {
     .nominations_title {
-        color: #425C5A;
+        color: #425c5a;
         font-family: "MuseoCyrl900";
         font-size: 30px;
         line-height: 36px;
@@ -191,8 +230,8 @@
         padding-bottom: 40px !important;
         margin: 0 !important;
     }
-    .div_ucaht{
-        p{
+    .div_ucaht {
+        p {
             font-family: "MontserratL";
             font-size: 18px;
             line-height: 22px;
@@ -204,7 +243,7 @@
         padding-bottom: 41px;
     }
 }
-#gallls{
+#gallls {
     padding-top: 90px;
     background: rgba(229, 229, 229, 0.45);
     .galls__title {
@@ -214,7 +253,7 @@
         font-size: 30px;
         line-height: 30px;
         text-transform: uppercase;
-        color: #A1A0CC;
+        color: #a1a0cc;
         padding-bottom: 46px;
         font-family: "MuseoCyrl900";
     }
@@ -243,14 +282,42 @@
         }
     }
 }
-@media screen and (max-width:992px){
-    .footer__logos{
+@media screen and (max-width: 992px) {
+    .footer__logos {
         margin-bottom: 30px;
+    }
+    #uchat .div_ucaht {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-bottom: 41px;
+        padding: 24px;
     }
     .swiper-prev {
         left: 0px !important;
     }
     .swiper-next {
         right: 0px !important;
+    }
+    #header {
+        .header_title {
+            padding: 40px 20px;
+            text-align: center;
+            .date {
+                font-size: 32px;
+            }
+            .time {
+                font-size: 26px;
+                padding-bottom: 20px;
+            }
+            .name_title {
+                font-size: 32px;
+                padding-bottom: 10px;
+            }
+            .city {
+                font-size: 28px;
+                padding-top: 25px;
+            }
+        }
     }
 }

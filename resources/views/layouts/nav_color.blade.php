@@ -1,6 +1,6 @@
-<section id="nav" class="container">
+<section id="nav">
   <nav class="right_nav colorize">
-    <div class="nav-wrapper">
+    <div class="nav-wrapper container">
     <ul id="nav-mobile" class="right hide-on-med-and-down li_items">
         <!-- <li>
           <a href="/programm">

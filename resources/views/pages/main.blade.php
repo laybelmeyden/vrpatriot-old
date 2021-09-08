@@ -3,16 +3,23 @@
 @section('content')
 @include('layouts.nav')
 <section id="header">
-  <div class="header_font">
+  <!-- <div class="header_font">
     <img src="assets/img/Group_333.png" alt="">
-  </div>
+  </div> -->
   <div class="header_title">
     <div class="container">
-      <h1>Школа развития волонтерских IT-навыков "IT - на добрые дела"</h1>
-      <h3>г.Омск, 15-17 октября <br> Конференц-Холл на Жукова 21</h3>
+      <p class="date">15-17 октября</p>
+      <p class="time">Начало в 10:00</p>
+      <p class="name_title">Школа развития волонтерских <br> IT-навыков</p>
+      <div class="heder__title_div">
+      <h1>IT - на добрые дела</h1>
+      </div>
+      <p class="city">г.Омск, Конференц-Холл на Жукова 21</p>
       <!-- <h3>интерактивных реконструкций событий <br> Великой Отечественной войны</h3> -->
       <!-- <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" onclick="modal_main_toggle();">Регистрация</a> -->
+      <div class="header__btn_m">
       <a href="https://anoasi.timepad.ru/event/1763103/#register" class="waves-effect waves-light btn btn_header ">Регистрация</a>
+      </div>
       <!-- <a id="form_modal_open" class="waves-effect waves-light btn btn_header modal-trigger" href="/programm">Итоги</a> -->
 
     </div>
