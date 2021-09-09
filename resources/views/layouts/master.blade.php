@@ -16,9 +16,9 @@
   <!--соц сети-->
   <meta property="og:title" content="Школа развития волонтерских IT-навыков "IT - на добрые дела"">
   <meta property="og:description" content="Основная идея проекта - дать волонтерам и добровальцам, необходимые навыки в сфере ИТ, которые бы помогли им в их волонтерской деятельности.">
-  <meta property="og:image" content="assets/img/1610216953_1-p-fon-volonteri-222.jpg">
-  <meta itemprop="image" content="assets/img/1610216953_1-p-fon-volonteri-222.jpg" />
-  <meta name="twitter:image:src" content="assets/img/1610216953_1-p-fon-volonteri-222.jpg" />
+  <meta property="og:image" content="assets/img/back2021.png">
+  <meta itemprop="image" content="assets/img/back2021.png" />
+  <meta name="twitter:image:src" content="assets/img/back2021.png" />
   <meta property="og:url" content="">
 
   <link rel="stylesheet" href="assets/css/main.css">
