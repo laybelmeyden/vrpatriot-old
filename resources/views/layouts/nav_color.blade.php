@@ -50,7 +50,8 @@
               <!-- <li class="mobile-menu__item"><a href="/programm" class="mobile-menu__link">Итоги</a></li> -->
               <li class="mobile-menu__item"><a href="/#info" class="mobile-menu__link">Описание проекта</a></li>
               <!-- <li class="mobile-menu__item"><a href="/#stages" class="mobile-menu__link">Цели и задачи</a></li> -->
-              <li class="mobile-menu__item"><a href="/#news" class="mobile-menu__link">Новости</a></li>
+              <!-- <li class="mobile-menu__item"><a href="/#news" class="mobile-menu__link">Новости</a></li> -->
+              <li class="mobile-menu__item"><a href="https://digitalart2021.ru/assets/files/Programma_Omsk_15-17_oktyabrya.docx" class="mobile-menu__link">Программа</a></li>
               <li class="mobile-menu__item"><a href="/#footer" class="mobile-menu__link">Контакты</a></li>
             </ul>
           </div>
