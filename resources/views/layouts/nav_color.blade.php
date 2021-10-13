@@ -16,16 +16,23 @@
             </div>
           </a>
         </li>
+        <li>
+          <a href="https://digitalart2021.ru/assets/files/Programma_Omsk_15-17_oktyabrya.docx">
+            <div class="hover_a_nav">
+              Программа
+            </div>
+          </a>
+        </li>
         <!-- <li><a href="/#stages">
             <div class="hover_a_nav">
             Цели и задачи
             </div>
           </a></li> -->
-        <li><a href="/#news">
+        <!-- <li><a href="/#news">
             <div class="hover_a_nav">
               Новости
             </div>
-          </a></li>
+          </a></li> -->
         <li><a href="/#footer">
             <div class="btn_a_nav">
               Контакты
