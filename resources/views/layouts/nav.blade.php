@@ -21,11 +21,16 @@
             Цели и задачи
             </div>
           </a></li> -->
-        <!-- <li><a href="/#news">
+        <li><a href="/#news">
             <div class="hover_a_nav">
               Новости
             </div>
-          </a></li> -->
+          </a></li>
+        <li><a href="/photos">
+            <div class="hover_a_nav">
+              Галерея
+            </div>
+          </a></li>
           <li>
           <a href="https://digitalart2021.ru/assets/files/Programma_Omsk_15-17_oktyabrya.docx">
             <div class="hover_a_nav">
@@ -50,7 +55,8 @@
               <!-- <li class="mobile-menu__item"><a href="/programm" class="mobile-menu__link">Итоги</a></li> -->
               <li class="mobile-menu__item"><a href="/#info" class="mobile-menu__link">Описание проекта</a></li>
               <!-- <li class="mobile-menu__item"><a href="/#stages" class="mobile-menu__link">Цели и задачи</a></li> -->
-              <!-- <li class="mobile-menu__item"><a href="/#news" class="mobile-menu__link">Новости</a></li> -->
+              <li class="mobile-menu__item"><a href="/#news" class="mobile-menu__link">Новости</a></li>
+              <li class="mobile-menu__item"><a href="/photos" class="mobile-menu__link">Галерея</a></li>
               <li class="mobile-menu__item"><a href="https://digitalart2021.ru/assets/files/Programma_Omsk_15-17_oktyabrya.docx" class="mobile-menu__link">Программа</a></li>
               <li class="mobile-menu__item"><a href="/#footer" class="mobile-menu__link">Контакты</a></li>
             </ul>

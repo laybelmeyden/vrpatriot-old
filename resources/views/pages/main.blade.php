@@ -216,7 +216,7 @@
     </div>
   </div>
 </section>
-<!-- <section id="news">
+<section id="news">
   <div class="container">
     <p class="news__title">НОВОСТИ И МЕРОПРИЯТИЯ</p>
   </div>
@@ -265,7 +265,7 @@
       <div class="swiper-next"></div>
     </div>
   </div>
-</section> -->
+</section>
 <section id="contact">
   <div class="container grid_contact_main">
     <div class="main_contact row">
