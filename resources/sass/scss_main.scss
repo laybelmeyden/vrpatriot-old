@@ -282,6 +282,32 @@
         }
     }
 }
+@media screen and (max-width:1201px) {
+    #gallls {
+        #lightgallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            a {
+                width: 100%;
+                height: 150px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            padding-bottom: 90px;
+            .blur-up {
+                -webkit-filter: blur(5px);
+                filter: blur(5px);
+                transition: filter 400ms, -webkit-filter 400ms;
+            }
+            .blur-up.lazyloaded {
+                -webkit-filter: blur(0);
+                filter: blur(0);
+            }
+        }
+    }
+}
 @media screen and (max-width: 992px) {
     .footer__logos {
         margin-bottom: 30px;
